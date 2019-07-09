@@ -1,0 +1,52 @@
+.jumbotron{ 
+background-color: rgba(136, 54, 122, 0.774);
+color:white;
+}
+body{
+    background:url("../images/background.jpeg");
+    color:white;
+    text-emphasis: center;
+    .crystal {
+       /* display: flex;
+        justify-content:space-around;
+        aligin-items:center; */
+    } 
+        .crystal {
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
+
+    }
+}
+
+#info{
+    background: red;
+}
+#game4{
+    color: thistle;
+}
+#leftDiv {
+    float: left;
+    border: 60px;
+    width: 30%;
+    height: 150px;
+    padding-inline-start: 40px
+    paddding */
+
+}
+ #DleftDiv{
+border: 60px;
+    width: 68%;
+    height: 110px;
+    text-align: right; 
+
+}
+}
+.clear {
+    clear: both;
+
+}
+/* .crystal{
+    width: 100px;
+    height: 100px;
+} */
