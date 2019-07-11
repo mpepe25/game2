@@ -43,9 +43,16 @@ h1 {
    border: 2px solid #000ecf;
 }
 
-Message Input
+#questionaires {
+    background-color: grey;
+    opacity: 0.9;
+    
+}
 
 
-Message Stephen Gallo
 
-/* 
+ #resultsMessage, #time {
+     display: none
+
+ }
+ 

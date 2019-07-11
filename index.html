@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
@@ -14,23 +15,38 @@
     <div class="container">
         <h1>Trivia Game!</h1>
         <button id="start" class="btn">Start</button>
+
+         <!-- Time Remaining -->
+    <div id="time">
+        <h3> time left: <span id="timer">5 </span> second </h3>
     </div>
 
-        <div id="quiz" class="main-content"> </div>
-            <!-- Time Remaining -->
-            <div id="time"></div>
+         <!-- Results -->
+        <div id="resultsMessage">
+                <h3>correct answers: <span id="correct"> </span> </h3>
+                <h3>incorrect answers: <span id="incorrect"> </span> </h3>
+                <h3>unanswers: <span id="unanswers"> </span> </h3>
+            </div>
 
-            
+    <div id="quiz" class="main-content"> </div>
+   
 
-                <div id="submit"></div>
+    <div id="questionaires"></div>
+    <p></p>
+    <button id="submit">Submit Quiz</button>
 
-                <!-- Results -->
-                <div id="resultsMessage"></div>
-                <!-- <div id="correct"></div>
-                <div id="incorrect"></div>
-                <div id="unanswered"></div>
-       
-     -->
+   
+    
+   
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div id="dataList"> </div>
+        </div>
+        <div class="col-sm-4">
+            <div id="radioBtn"></div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
